@@ -1,4 +1,6 @@
-Startrack API for Go
+# Startrack API for Go
+
+[![GoDoc](https://godoc.org/github.com/porty/startrack?status.svg)](https://godoc.org/github.com/porty/startrack)
 
 This aims to be a Startrack API library for Go.
 
