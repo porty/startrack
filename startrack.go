@@ -83,6 +83,7 @@ func (c *Client) do(req *http.Request, respData interface{}) error {
 	req.SetBasicAuth(c.username, c.password)
 	req.Header.Add("Account-Number", c.accountNumber)
 	req.Header.Add("Accept", "application/json")
+	req.Header.Add("Content-Type", "application/json")
 
 	log.Printf("Sending %s request to %s", req.Method, req.URL.String())
 	for k, vs := range req.Header {
